@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper {
+  background: #fff;
+  box-sizing: border-box;
+  height: 75vh;
+  max-width: 100%;
+  width: 800px;
+  margin: 4rem auto;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+  height: 35px;
+  align-items: center;
+}
+.main-nav {
+  display: flex;
+  list-style-type: none;
+  font-size: 9px;
+  padding-right: 30px;
+}
+
+ul a {
+  text-decoration: none;
+  color: #61637787;
+  padding: 8px;
+}
+.active {
+  color: #000;
+}
+
+ul a:hover {
+  color: dodgerblue;
+}
+
+.logo {
+  margin-left: 30px;
+  color: #fff;
+}
+.img {
+  width: 10px;
+}
+
+.img-guide {
+  background: rgb(245, 0, 122);
+  padding: 3px 4px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+.btn {
+  padding: 10px 60px;
+  color: #fff;
+  background: #000;
+  transition: all 0.3s ease 0s;
+  margin-top: 2rem;
+  border-radius: 50px;
+}
+.btn:hover {
+  color: #000;
+  transition: all 0.3s ease 0s;
+  background: #0b7dda;
+  border: transparent;
+  border-radius: 0%;
+}
+
+.container {
+  background: linear-gradient(
+    to right,
+    #000,
+    #000,
+    #000 20%,
+    white 0%,
+    white 20%
+  );
+  box-sizing: border-box;
+  height: 50vh;
+  max-width: 100%;
+  width: 800px;
+  margin: 4rem auto;
+}
+
+.main-contents {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  font-size: 20px;
+  position: relative;
+  justify-content: center;
+}
+
+.box-1 {
+  flex: 0 0 30%;
+  margin-left: 3rem;
+  background: gainsboro;
+  height: 60vh;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.box-2 {
+  flex: 1;
+  margin-left: 1.5rem;
+}
+.box-2 p {
+  font-size: 12px;
+  width: 80%;
+  color: #808080d1;
+}
+.box-2 h2 {
+  border-bottom: 8px solid #000;
+  width: 4%;
+}
